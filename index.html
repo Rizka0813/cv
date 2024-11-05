@@ -10,7 +10,23 @@
     <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600&display=swap" rel="stylesheet">
 </head>
 <body>
-    <header>
+   <!-- Navigation Menu -->
+   <nav class="navbar">
+    <div class="container">
+        <div class="menu-toggle" onclick="toggleMenu()">
+            ☰
+        </div>
+        <ul class="nav-links" id="dropdownMenu">
+            <li><a href="#home">Home</a></li>
+            <li><a href="#about">About Me</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#contact">Contact</a></li>
+        </ul>
+    </div>
+</nav>
+    <!-- Header Section -->
+    <header id="home">
         <div class="container">
             <h1>Rizka Yuniarti</h1>
             <p>Informatics Engineering Student</p>
@@ -21,7 +37,10 @@
         <div class="container">
             <img src="foto/me.jpeg" alt="Your Photo" class="profile-photo">
             <h2>About Me</h2>
-            <p>Hello I’m an Informatics Engineering student with a passion for web development and data analysis. I enjoy learning new technologies and am always looking for new challenges to grow my skills.</p>
+            <p>Hello I’m an Informatics Engineering student with a passion for web development. I enjoy learning new technologies and am always looking for new challenges to grow my skills.
+                Passionate about technology and problem-solving, I am eager to learn and apply my skills to real-world challenges. Besides my studies, I enjoy exploring new things in the tech world, 
+                especially those that connect to everyday life. My curiosity drives me to keep expanding my knowledge, whether it's through classes, online seminars, or hands-on projects. I’m also known 
+                for my love of snacks, which keeps me fueled through all the coding sessions!</p>
         </div>
     </section>
 
@@ -40,19 +59,37 @@
         <div class="container">
             <h2>Experience</h2>
             <ul>
-                <li>Internship at ? Company as a Web Developer</li>
-                <li>Developed and deployed a personal project using React and Node.js</li>
+                <li>BEM (Badan Eksekutif Mahasiswa)</li>
+                <li>2022-2023</li>
+                <li>Admin Online Shop</li>
+                <li>2021-2022</li>
             </ul>
         </div>
     </section>
 
     <section id="contact" class="section section-light">
         <div class="container">
-            <h2>Contact</h2>
-            <p>Email: rizkayuniartiii@gmail.com</p>
-            <p>Phone: +62 813-1761-3731</p>
+            <h2>Contact Me</h2>
+            <form id="contactForm">
+                <label for="name">Name:</label>
+                <input type="text" id="name" name="name" required>
+    
+                <label for="email">Email:</label>
+                <input type="email" id="email" name="email" required>
+    
+                <label for="message">Message:</label>
+                <textarea id="message" name="message" required></textarea>
+    
+                <button type="submit">Submit</button>
+            </form>
+    
+            <h3>Comments</h3>
+            <div id="commentsSection">
+                <!-- Comments will be displayed here -->
+            </div>
         </div>
     </section>
+    
 
     <footer>
         <p>&copy; 2024 Rizka Yuniarti</p>
