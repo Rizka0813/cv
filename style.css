@@ -17,6 +17,79 @@ body {
     width: 80%;
     margin: 0 auto;
 }
+
+/* Global container settings */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+/* Education Section */
+#education {
+    background-color: #f8f8f8; /* Warna latar belakang berbeda */
+    padding: 40px 0;
+}
+
+
+
+/* About Me */
+#about {
+    background-color: #e9ecef;
+}
+
+/* Skills Section */
+#skills {
+    background-color: #e9ecef; /* Tambahkan warna latar belakang */
+    padding: 40px 0;
+}
+
+/* Experience Section */
+#experience {
+    background-color: #f8f8f8; /* Tambahkan warna latar belakang */
+    padding: 40px 0;
+}
+
+/* Contact Me */
+#contact {
+    background-color: #e9ecef; /* Tambahkan warna latar belakang */
+    padding: 40px 0;
+}
+
+.section h2 {
+    font-size: 2rem;
+    color: #333;
+    margin-bottom: 10px;
+    text-transform: uppercase;
+    position: relative;
+}
+
+
+
+/* Global Container */
+.container {
+    width: 80%;
+    margin: 0 auto;
+}
+
+.education-item h3, .skills-item, .experience-item {
+    font-size: 1.5rem;
+    color: #333;
+    margin-bottom: 5px;
+}
+
+.education-item p, .skills-item p, .experience-item p {
+    font-size: 1.1rem;
+    color: #555;
+    margin: 5px 0;
+}
+
+/* Mengatur agar semua bagian memiliki padding yang sama */
+.section {
+    padding: 40px 0;
+}
+
+
+
 /* Navbar Styles */
 .navbar {
     background-color: #023047;
@@ -272,3 +345,4 @@ footer p {
         font-size: 0.9rem;
     }
 }
+
