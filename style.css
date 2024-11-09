@@ -345,4 +345,21 @@ footer p {
         font-size: 0.9rem;
     }
 }
+/* Social Media Section */
+.social-media {
+    display: flex;
+    justify-content: center;
+    gap: 20px;
+    margin-top: 10px;
+}
+
+.social-media a img {
+    width: 30px; /* Ukuran ikon */
+    height: 30px;
+    transition: transform 0.3s ease;
+}
+
+.social-media a img:hover {
+    transform: scale(1.1); /* Efek zoom saat hover */
+}
 
