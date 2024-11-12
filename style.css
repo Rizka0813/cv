@@ -363,3 +363,33 @@ footer p {
     transform: scale(1.1); /* Efek zoom saat hover */
 }
 
+/* Section for Social Media Icons */
+.social-media {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    gap: 15px; /* Jarak antar ikon */
+    margin-top: 10px;
+}
+
+.social-media a {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    width: 40px;  /* Ukuran kotak ikon */
+    height: 40px;
+    border-radius: 50%;  /* Membuat ikon berbentuk lingkaran */
+    background-color: #ffffff;  /* Warna background untuk ikon */
+    box-shadow: 0px 2px 5px rgba(0, 0, 0, 0.2);  /* Shadow untuk efek */
+    transition: transform 0.3s ease, background-color 0.3s ease;
+}
+
+.social-media a img {
+    width: 24px; /* Ukuran gambar ikon */
+    height: 24px;
+}
+
+.social-media a:hover {
+    transform: scale(1.1); /* Efek zoom pada hover */
+    background-color: #f8c1c1; /* Ganti warna latar saat di-hover */
+}
